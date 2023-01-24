@@ -229,7 +229,7 @@ n 3 5 0
 Vectors are 2 dimensional arrays of node states that co-respond to the states of the input or output nodes of a netlist. They can be loaded from a file and are useful for running fixed tests.
 
 State	      		| File Representation
----------------------------------------------
+----------------|----------------------------
 Low			|	0
 High   			|	1
 Unstable low 		| 	2

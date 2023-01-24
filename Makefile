@@ -82,6 +82,6 @@ $(BUILD_DIR)/%.o: %.c
 
 .PHONY: clean
 clean:
-	$(RM) $(TARGET) $(TEST) $(EXAMPLES) $(BIN_DIR) $(DEP_DIR) $(BUILD_DIR)
+	$(RM) $(TARGET) $(TEST) $(EXAMPLE) $(BIN_DIR) $(DEP_DIR) $(BUILD_DIR)
 
 -include $(DEPS)
